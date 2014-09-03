@@ -1,0 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,11pt,oneside]{article}
+\usepackage[a4paper,vmargin={1.5cm,1.5cm},width=17cm]{geometry}
+\usepackage[style=verbose-inote,doi=false,sortcites=true,block=space]{biblatex}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage[spanish]{babel}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{eurosym}
+\usepackage{hyperref}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% HEADERS
+\setlength{\headheight}{1cm}
+\setlength{\headsep}{0.5cm}
+\pagestyle{fancyplain}
+\fancyhf{}
+\lhead{\fancyplain{}{\sc Memoria científico técnica de proyectos coordinados}}
+\rhead{\fancyplain{}{\sc NEXT}}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt} % remove lines
+\renewcommand{\footrulewidth}{0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Hack to make math formulas bold in section titles
+\makeatletter
+\DeclareRobustCommand*{\bfseries}{%
+  \not@math@alphabet\bfseries\mathbf
+  \fontseries\bfdefault\selectfont
+  \boldmath
+}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\thesection{\bf \textsf{\alph{section}}}
+
+%\nobibliography{biblio}
+%\bibliographystyle{JHEP}
+
+\bibliography{biblio}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%% Some useful definitions
+\input{src/Commands.tex}
+
+%% Heading
+\begin{center}
+{\Large \textsf{Convocatorias 2014}} \\ \vspace{0.3cm}
+{\Large  \textsf{Proyectos de I+D ``Excelencia'' y Proyectos de I+D+I ``Retos Investigación"}} \\ 
+{\Large \textsf{Dirección General de Investigación Científica y Técnica}} \\
+{\Large \textsf{Subdirección General de Proyectos de Investigación }} \\ 
+%\vspace{0.5cm}
+%{\LARGE \bf \textsf{Construcción puesta a punto y operación del experimento NEXT en el Laboratorio Subterráneo de Canfranc} }\\ 
+%\vspace{0.3cm}
+%{\LARGE \bf \textsf{Construction, commissioning and operation of the NEXT experiment at the Canfranc Underground Laboratory }}\\ 
+\end{center}
+
+
+\section{\bf \textsf{RESUMEN DE LA PROPUESTA/SUMMARY OF THE PROPOSAL}}
+\subsection{DATOS DEL PROYECTO COORDINADO}
+
+{\bf INVESTIGADOR COORDINADOR PRINCIPAL:} Juan José Gómez Cadenas.
+\vspace{0.3cm}
+
+{\bf TÍTULO GENERAL DEL PROYECTO COORDINADO:} Construcción puesta a punto y operación del experimento NEXT en el Laboratorio Subterráneo de Canfranc.
+\vspace{0.3cm}
+
+{\bf ACRÓNIMO DEL PROYECTO COORDINADO:} NEXT.
+\vspace{0.3cm}
+
+{\bf RESUMEN DEL PROYECTO COORDINADO:} 
+
+NEXT (Neutrino Experiment with a Xenon TPC) es un experimento para buscar desintegraciones doble beta sin neutrinos (\bbonu) utilizando cien kilos de gas xenón, enriquecido al 90\% en el isótopo \XE. La detección de dichos procesos demostraría unívocamente que el neutrino es una partícula de Majorana (es decir su propia antipartícula) y supondría un descubrimiento de suma importancia en física de partículas y cosmología. 
+
+El experimento NEXT requiere la construcción de una serie de cámaras de proyección temporal (HPXe-TPC de sus siglas en inglés), que operan a alta presión (10-20 atmósferas) 
+Sus características principales son: a) excelente resolución en la medida de la energía; b) capacidad de reconstruir la trayectoria de los electrones emitidos en la desintegración, una característica única de esta tecnología, que refuerza la capacidad del experimento para reducir el ruido de fondo; c) economía de escala, esto es la capacidad de mejorar el cociente señal a ruido a medida que el tamaño del detector aumenta; y d) la posibilidad de reducir el ruido de fondo hasta niveles despreciables mediante la técnica conocida como {\sc BaTa} (de las siglas en inglés, Barium Tagging).
+
+NEXT es  una colaboración internacional, liderada por grupos españoles y con una fuerte contribución de grupos norteamericanos. El proyecto ha finalizado la fase de R\&D que se ha extendido desde 2009 hasta 2013. Durante esta fase se han construido los prototipos NEXT-DEMO (IFIC) y NEXT-DBDM (Berkeley) que han demostrado de manera rotunda las características principales de NEXT, incluyendo una excelente resolución en energía (0.5-0.7 \% FWHM a 2.5 MeV) y la reconstrucción de electrones. 
+
+En el año 2014 se está construyendo la primera fase del experimento. Se trata de un detector capaz de albergar 15 kg de gas xenón, denominado NEXT-WHITE (NEW). La financiación para la construcción de NEW proviene de un Advanced Grant (AdG) concedido por la ERC al spokesperson de NEXT y IP de este proyecto coordinado. NEW tiene un tiple objetivo: a) certificación de la tecnología de NEXT en condiciones de radio-pureza extrema ; b) medida precisa de los ruidos de fondo en el experimento; y c) medida del proceso de desintegración doble beta estándar (\bbtnu). NEW será instalado en el Laboratorio Subterráneo de Canfranc (LSC) en 2015 y operará durante 2015 y 2016.
+
+La siguiente fase del experimento es la construcción, puesta a punto y operación del detector NEXT-100, que albergará cien kilos de xenón (enriquecido al 90\% en \XE) a una presión de 15 atmósferas. El objetivo de NEXT-100 es descubrir el proceso \bbonu\ si este se da con una vida media igual o inferior a $6 \times 10^{25}$~años. La sensibilidad esperada del detector NEXT-100 es superior a la de los experimentos que lideran el campo actualmente, en concreto EXO y KamLAND-ZEN, ambos basados en xenón y cuyas búsquedas (hasta el momento con resultados negativos) han arrojado sensibilidades del orden de  $2-3 \times 10^{25}$~años.
+
+Una parte importante de los gastos de construcción de NEXT-100 (incluyendo el gas enriquecido) ha sido financiada por proyectos del investigación nacionales. 
+ Otra parte de los gastos será financiada por el AdG y por la colaboración internacional, en particular los grupos USA. Parte del equipo científico del IFIC será financiada por el AdG. {\em Este  proyecto de investigación requiere co-financiación para para completar la construcción del detector, así como para personal científico y técnico no financiado por otras fuentes)}. Nuestro objetivo principal es la construcción (2015--2016) puesta a punto (2017) y operación (a partir de 2018) de NEXT-100. La sensibilidad esperada del experimento podría traducirse en un descubrimiento en unos 3 años de operación.  Un segundo objetivo (cubierto mayoritariamente por otros proyectos de investigación y para el que se solicita una ayuda muy modesta) es el desarrollo de I+D+i de cara a futuras fases del experimento. En concreto, se ha iniciado una colaboración con el Centro de Láseres Pulsados (CLPU) para el desarrollo de la tecnología de {\sc BaTa}.
+ 
+ \vspace{0.3cm}
+
+{\bf PALABRAS CLAVE DEL PROYECTO COORDINADO:} neutrinos, TPC, HPXe, xenón, desintegración doble beta, Canfranc, alta presión, electroluminescencia. 
+
+ \vspace{0.6cm}
+{\bf TITLE OF THE COORDINATED PROJECT:} Construction commissioning and operation of the NEXT experiment at the LSC underground laboratory. 
+\vspace{0.3cm}
+
+{\bf ACRONYM OF THE COORDINATED PROJECT:} NEXT.
+\vspace{0.3cm}
+
+{\bf SUMMARY OF THE COORDINATED PROJECT:} 
+
+NEXT (Neutrino Experiment with a Xenon TPC) is an experiment to search neutrino less double beta decay processes  (\bbonu) using 100 kg of gas xenon enriched at  90\% in the isotope \XE. The detection of such processes would demonstrate unambiguously that neutrinos are Majorana particles (that is their own antiparticles) and would imply a major discovery, with deep consequences in physics and cosmology. 
+
+The NEXT experiment requires the construction of several xenon high-pressure, time projection chambers (HPXe-TPCs). The technology presents the following advantages: a) excellent energy resolution; b) the ability to reconstruct the trajectory of the two electrons emitted in the decays, a unique feature of the HPXe TPC which further contributes to the suppression of backgrounds; c) economy of scale, that is the ability to improve the signal to noise ratio as the detector size increases; and d) the possibility to reduce the background to negligible levels thanks to the barium tagging technology ({\sc BaTa}).
+
+NEXT is an international collaboration, with spanish leadership and a strong contribution of US groups. The project has completed the R\&D phase, which has span from 2009 to 2013. During this period, the NEXT-DEMO and NEXT-DBDM prototypes have been built, commissioned and operated at IFIC (Valencia, Spain) and LBNL (Berkeley, USA) respectively. The prototypes have demonstrated clearly the main features of the technology including excellent energy resolution (0.5-0.7 \% FWHM at 2.5 MeV) and the reconstruction of the trajectory of electrons.
+
+During 2014, the collaboration is building the first phase of the experiment, the NEXT-WHITE (NEW) detector, capable to host up to 15 kg of xenón at 20 bar pressure. The construction of NEW is funded by an Advanced Grant (AdG) granted in 2013 to the spokesperson of the collaboration and PI of this project. NEW has a triple goal: a) certify the technology of NEXT in conditions of extreme radio-purity; b) a precise measurement of the detector and environmental backgrounds at the LSC; and c) observation of the standard process \bbtnu. NEW will go underground in 2015 and will operate in 2015 and 2016.  
+
+The following phase of the experiment is the construction, commissioning and operation of NEXT-100, a detector that will host 100 kg of xenon enriched at 90\% in \XE, at a pressure of 15 bars. The goal of NEXT-100 is to discover the process \bbonu\ if it occurs with a period equal or smaller than  $6 \times 10^{25}$~years. The expected sensitivity of NEXT-100 is larger than that of the experiments currently leading the field (specifically, the xenon-based experiments, EXO and KamLAND-ZEN have set limits to the \bbonu\ process in the range of $2-3 \times 10^{25}$~years), thanks to its unique combination of energy resolution and topological signature. 
+
+A significant part of the construction costs of NEXT-100 (including the purchase of 100 kg of enriched xenon gas) has been financed by Spanish research projects. Another part will be financed by the AdG and by the international collaboration, in particular by the contribution of US groups. {\em This project requires co-funding to complete de detector construction, as well as to support scientists and technical personnel not supported by other funding sources}. Our main goal is the construction of NEXT-100 (during 2016, although some equipment will be purchased in 2015), followed by commissioning (2017) and operation (2018 and beyond). Our projected sensitivity could result in a discovery after about 3 years of operation. A second goal is the R\&D for a future extension of the experiment, with a mass in the ton scale. Such R\&D will include a collaboration with the Spanish Center for Pulsed Lasers (CLPU) to develop the technology of  {\sc BaTa}. Only very modest support is required for this activity, that will be co-funded by other funding sources (EC projects and Spanish Explora projects). 
+
+ \vspace{0.3cm}
+
+{\bf KEYWORDS OF THE COORDINATED PROJECT:} neutrinos, TPC, HPXe, xenon, double beta decay, Canfranc, high pressure electroluminescence. 
+
+\end{document}
+
+%Los resultados de la fase de R\&D de NEXT (financiada por el CONSOLIDER-INGENIO CUP y con importantes contribuciones de los grupos USA) se han traducido en numerosas publicaciones, presentaciones a congresos y charlas invitada (http://next.ific.uv.es/next/talks.html). NEXT ha sido declarado experimento reconocido del CERN y el comité de física nuclear del DOE norteamericano (NSAC) lo cita como uno de los más interesantes del campo (http://science.energy.gov/~/media/np/nsac/pdf/docs/2014/NLDBD_Report_2014_Final.pdf). 
+%
+%Así, por ejemplo, la vasija a presión ya ha sido construida y los sensores internos (PMTs y SiPMs) ya han sido adquiridos. También han sido adquiridos 100 kilos de gas xenón enriquecido y 100 kilos de gas xenón empobrecido en \XE.
