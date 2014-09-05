@@ -1954,5 +1954,11 @@
     <bcf:datasource type="file" datatype="bibtex">biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">Alvarez:2012haa</bcf:citekey>
+    <bcf:citekey order="2">Alvarez:2012as</bcf:citekey>
+    <bcf:citekey order="3">Alvarez:2012hh</bcf:citekey>
+    <bcf:citekey order="3">Alvarez:2012nd</bcf:citekey>
+    <bcf:citekey order="3">Alvarez:2012hu</bcf:citekey>
+    <bcf:citekey order="4">Luscher:1998sd</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>
